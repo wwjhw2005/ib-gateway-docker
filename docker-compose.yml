@@ -1,4 +1,4 @@
-name: algo-trader
+name: algo-trader-new
 services:
   ib-gateway:
     restart: always

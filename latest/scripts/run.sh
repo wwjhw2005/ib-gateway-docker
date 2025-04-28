@@ -66,6 +66,7 @@ start_vnc() {
 }
 
 start_IBC() {
+	TWS_MAJOR_VRSN=10.34.1c
 	echo ".> Starting IBC in ${TRADING_MODE} mode, with params:"
 	echo ".>		Version: ${TWS_MAJOR_VRSN}"
 	echo ".>		program: ${IBC_COMMAND:-gateway}"
